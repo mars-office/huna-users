@@ -24,8 +24,8 @@ app.use(testRouter);
 // Error handler, should always be LAST use()
 app.use(globalErrorHandlerMiddleware);
 
-app.listen(3005, () => {
-  console.log(`Server is listening on http://localhost:3005`);
+app.listen(3001, () => {
+  console.log(`Server is listening on http://localhost:3001`);
 });
 
 process.on("SIGINT", () => {
